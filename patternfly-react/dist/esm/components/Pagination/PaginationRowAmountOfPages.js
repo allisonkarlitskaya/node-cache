@@ -1,0 +1,30 @@
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import React from 'react';
+import PropTypes from 'prop-types';
+/**
+ * PaginationRowAmountOfPages component for Patternfly React
+ */
+
+const PaginationRowAmountOfPages = (_ref) => {
+  let {
+    messagesOf,
+    amountOfPages
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["messagesOf", "amountOfPages"]);
+
+  return React.createElement("span", props, "\xA0", messagesOf, "\xA0", React.createElement("span", {
+    className: "pagination-pf-pages"
+  }, amountOfPages));
+};
+
+PaginationRowAmountOfPages.propTypes = {
+  /** messages of */
+  messagesOf: PropTypes.string.isRequired,
+
+  /** calculated amount of pages */
+  amountOfPages: PropTypes.number.isRequired
+};
+export default PaginationRowAmountOfPages;

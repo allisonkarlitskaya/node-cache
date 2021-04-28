@@ -1,0 +1,41 @@
+{
+  "_from": "git+https://github.com/RedHatOfficial/RedHatFont.git#2.2.0",
+  "_id": "@redhat/redhat-font@2.2.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@redhat/redhat-font",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "@redhat/redhat-font@git+https://github.com/RedHatOfficial/RedHatFont.git#2.2.0",
+    "name": "@redhat/redhat-font",
+    "escapedName": "@redhat%2fredhat-font",
+    "scope": "@redhat",
+    "rawSpec": "git+https://github.com/RedHatOfficial/RedHatFont.git#2.2.0",
+    "saveSpec": "git+https://github.com/RedHatOfficial/RedHatFont.git#2.2.0",
+    "fetchSpec": "https://github.com/RedHatOfficial/RedHatFont.git",
+    "gitCommittish": "2.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/RedHatOfficial/RedHatFont.git#8bf337e2ffe366d02dd0b612f4cdc85b4528f9ab",
+  "_spec": "@redhat/redhat-font@git+https://github.com/RedHatOfficial/RedHatFont.git#2.2.0",
+  "_where": "/home/node",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Red Hat - the open source font for Red Hat",
+  "keywords": [
+    "font",
+    "Red",
+    "Hat"
+  ],
+  "license": "OFL-1.1",
+  "main": "red-hat-font.css",
+  "name": "@redhat/redhat-font",
+  "scripts": {
+    "test": ""
+  },
+  "version": "2.2.0"
+}
