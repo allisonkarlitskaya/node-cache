@@ -1,0 +1,65 @@
+{
+  "_from": "@commitlint/types@^12.1.3",
+  "_id": "@commitlint/types@12.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-CqzlBU8eC38O0uPafyunphiz91zTfpKFYV/E3ER51aF1pxacxt8m2Y1v5KCZniuTVnFsF7/+A72ssxUk2FcWbw==",
+  "_location": "/@commitlint/types",
+  "_phantomChildren": {
+    "ansi-styles": "4.3.0",
+    "supports-color": "7.2.0"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@commitlint/types@^12.1.3",
+    "name": "@commitlint/types",
+    "escapedName": "@commitlint%2ftypes",
+    "scope": "@commitlint",
+    "rawSpec": "^12.1.3",
+    "saveSpec": null,
+    "fetchSpec": "^12.1.3"
+  },
+  "_requiredBy": [
+    "/@commitlint/load"
+  ],
+  "_resolved": "https://registry.npmjs.org/@commitlint/types/-/types-12.1.3.tgz",
+  "_shasum": "3925c903f9f95615d755a1bdabeeb9753c8adb5b",
+  "_spec": "@commitlint/types@^12.1.3",
+  "_where": "/home/node/node_modules/@commitlint/load",
+  "author": {
+    "name": "Mario Nebl",
+    "email": "hello@herebecode.com"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/commitlint/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^4.0.0"
+  },
+  "deprecated": false,
+  "description": "Shared types for commitlint packages",
+  "devDependencies": {
+    "@commitlint/utils": "^12.1.3"
+  },
+  "engines": {
+    "node": ">=v10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "gitHead": "81358f98b397b52250f118835cdcb5acebab2aba",
+  "homepage": "https://github.com/conventional-changelog/commitlint#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "@commitlint/types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/commitlint.git"
+  },
+  "scripts": {
+    "pkg": "pkg-check"
+  },
+  "types": "lib/index.d.ts",
+  "version": "12.1.3"
+}
