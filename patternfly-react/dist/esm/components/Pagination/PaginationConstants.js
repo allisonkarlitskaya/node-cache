@@ -1,0 +1,6 @@
+export const PAGINATION_VIEW = {
+  LIST: 'list',
+  CARD: 'card',
+  TABLE: 'table'
+};
+export const PAGINATION_VIEW_TYPES = [PAGINATION_VIEW.LIST, PAGINATION_VIEW.CARD, PAGINATION_VIEW.TABLE];
