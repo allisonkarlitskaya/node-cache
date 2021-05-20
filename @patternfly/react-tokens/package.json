@@ -1,0 +1,68 @@
+{
+  "_from": "@patternfly/react-tokens@^4.11.8",
+  "_id": "@patternfly/react-tokens@4.11.8",
+  "_inBundle": false,
+  "_integrity": "sha512-k3UwsnWRoHHYbFbiqmUHtkrAPtw6D8BZLB1tPGzdXBlqQXRX1t8xukgDcTSUWo6wOPVdk8WrOgmWMy0u0Tk+sw==",
+  "_location": "/@patternfly/react-tokens",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@patternfly/react-tokens@^4.11.8",
+    "name": "@patternfly/react-tokens",
+    "escapedName": "@patternfly%2freact-tokens",
+    "scope": "@patternfly",
+    "rawSpec": "^4.11.8",
+    "saveSpec": null,
+    "fetchSpec": "^4.11.8"
+  },
+  "_requiredBy": [
+    "/@patternfly/react-core",
+    "/@patternfly/react-table"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/react-tokens/-/react-tokens-4.11.8.tgz",
+  "_shasum": "ea0c9ca036f6b0506cda43e899c3248971920337",
+  "_spec": "@patternfly/react-tokens@^4.11.8",
+  "_where": "/home/node/node_modules/@patternfly/react-core",
+  "author": {
+    "name": "Red Hat"
+  },
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-react/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This library provides access to the design tokens of PatternFly 4 from JavaScript",
+  "devDependencies": {
+    "@patternfly/patternfly": "4.103.6",
+    "css": "^2.2.3",
+    "fs-extra": "^6.0.1",
+    "glob": "^7.1.2",
+    "rimraf": "^2.6.2"
+  },
+  "gitHead": "2ecbb9837bba6e9a97da7d1a8f498345ea26f0a4",
+  "homepage": "https://github.com/patternfly/patternfly-react#readme",
+  "keywords": [
+    "react",
+    "patternfly"
+  ],
+  "license": "MIT",
+  "main": "dist/js/index.js",
+  "module": "dist/esm/index.js",
+  "name": "@patternfly/react-tokens",
+  "publishConfig": {
+    "access": "public",
+    "tag": "prerelease"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-react.git"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "generate": "yarn clean && node scripts/writeTokens.js"
+  },
+  "sideEffects": false,
+  "types": "dist/js/index.d.ts",
+  "version": "4.11.8"
+}
